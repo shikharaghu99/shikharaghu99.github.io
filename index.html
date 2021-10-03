@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shikha Raghuwanshi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header" id="nav">
+        <ul>
+            <li><a id="H" href="#Home"  onclick="showHome()">Home</a></li>
+            <li><a id="A" href="#About" onclick="showAbout()">About</a></li>
+            <li><a id="E" href="#Education" onclick="showEducation()">Education</a></li>
+             <li><a id="P" href="#Projects" onclick="showProject()">Projects</a></li>
+            
+             <li><a id="C" href="#Contact" onclick="showContact()">Contact</a></li>
+             <li><a href="#" id="bar" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a></li>
+         </ul>
+
+    </div>
+
+    <div id="Home"><a href="Home"></a>
+      <div id="homeImg">
+        <img src="https://wallpapercave.com/wp/wp3269194.jpg" alt="Home Image">
+        <div id="textBlock">
+          Shikha Raghuwanshi.
+        </div>
+        <span id="forDate"></span>
+      </div>
+      <h1 class="heading" class="blink">Hello, Welcome to my portfolio.!!!</h1>
+    </div>
+
+
+    <div id="About"><a href="About"></a>
+    <div class="left">
+    <img id="profile"src="https://media-exp1.licdn.com/dms/image/C5603AQEyoiJQkpwLdg/profile-displayphoto-shrink_200_200/0/1629569655855?e=1637798400&v=beta&t=UylvQmO11kTqyrjXr7ShpZMrUmE_MFDs39gk8uNN1ew" alt="Shikha raghuwanshi" title="Profile Pic">
+    <p><h2 class="heading2">Shikha Raghuwanshi</h2>
+        <a href="https://drive.google.com/file/d/1ZlFk6gQP9Ts0VyAI_5JGugakpB5OWb5h/view?usp=sharing" target="_blank"><h3 class="heading3"><i class="fa fa-download"></i> My Resume</h3></a>
+
+        <ul id="Network" onmouseover="icon()">
+            <li><a href="https://github.com/shikharaghu99" target="_blank" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/shikha-raghuwanshi-24b682143" target="_blank" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.hackerrank.com/2021201055_shikh" target="_blank" title="Hackerrank"><i class="fa fa-code" ></i></a></li>
+            <li ><a href="https://leetcode.com/shikha99/" target="_blank" title="Leetcode"><i class="fa fa-terminal" ></i></a></li>
+        </ul>
+        <br>
+        <span><a href="#Contact" onclick="showContact()">Contact</a></span>
+    </p> 
+    </div>
+     <div class="right">
+        <h1 class="heading">About</h1>
+         I am from Bhopal Madhya Pradesh. I am currently pursuing my MTech in Computer Science from IIIT Hyderabad. I have worked on some projects based on Java in my BTech. I have mentioned about them in the <span><a href="#Projects" onclick="showProject()">Project Section</a></span>. With these projects I got better understanding of <span><a href="https://www.javatpoint.com/java-oops-concepts" target="_blank"> OOPS concept in Java</a></span>, mainly abstraction and encapulation. In my projects I have worked with Oracle DataBase. JDBC was used to interact with backend part.<br>
+        <br>
+         <h2>My Interests ans Skills:</h2>
+         <ul>
+           <li>C++</li>
+           <li>SQL</li>
+           <li>JAVA</li>
+           <li>Operating System</li>
+           <li>Data Structure and Algorithm</li>
+           <li>Database Management System</li>
+         </ul>
+        
+     </div>
+     </div>
+
+    <div id="Education"><a href="Education"></a>
+    <h1 class="heading">Education</h1>
+    <table cellspacing="10px" cellpadding="10px" align="center">
+        <tr>
+            <td rowspan="2">2021-2023</td>
+            <td> MTech CSE</td>
+            <td rowspan="2"><a href="https://www.iiit.ac.in">IIIT Hyderabad</a></td>
+        </tr>
+        <tr><td>IIIT Hyderabad</td></tr>
+        
+        <tr>
+            <td rowspan="2">2017-2021</td>
+            <td> BTech CSE</td>
+            <td rowspan="2"><a href="https://www.uitrgpv.ac.in/">University Institute Of Technology</a></td>
+        </tr>
+        <tr><td>UIT RGPV, Bhopal</td></tr>
+        <tr>
+            <td rowspan="2">2015-2017</td>
+            <td> High School</td>
+            <td rowspan="2"><a href="http://www.mvaburhanpur.com/">Macro Vision Academy</a></td>
+        </tr>
+        <tr><td>Macro Vision Academy, Burhanpur</td></tr>
+    </table>
+    </div>
+
+    <div id="Projects"><a href="Projects"></a>
+        <h1 class="heading">Projects</h1>
+
+        <div id="one" class="responsive" >
+            <div id="g1" onmouseover="remImg1()" >
+            <img src="https://www.eweek.com/wp-content/uploads/2020/10/Online.voting.jpg" alt="Online Voting System" width="300" height="300">
+              <div class="desc">ONLINE VOTING SYSTEM</div>
+            </div>
+          </div>
+          
+          <div id="two" class="responsive">
+            <div id="g2"  onmouseover="remImg2()">
+                <img src="https://kindgeek.com/blog/wp-content/uploads/2019/12/OBUZORLdEFO3HofPcHMa-1140x694.jpeg" alt="Hospital Management System" width="300" height="300">
+            
+              <div class="desc">HOSPITAL MANAGEMENT</div>
+            </div>
+          </div>
+          
+          <div id="three" class="responsive">
+            <div id="g3" onmouseover="remImg3()">
+                <img src="https://www.posist.com/restaurant-times/wp-content/uploads/2018/06/Restaurant-Management-Systems-Run-Multiple-Outlets-1.jpg" alt="Restaurant Management System"  width="300" height="300">
+             
+              <div class="desc">RESTAURANT MANAGEMENT SYSTEM</div>
+              </div>
+          </div> 
+
+          <div id="four" class="responsive">
+            <div id="g4"  onmouseover="remImg4()">
+                <img src="https://assets.thehansindia.com/h-upload/2020/10/07/1004053-train.webp" alt="Railway Reservation"  width="300" height="300">
+             
+              <div class="desc">RAILWAY RESERVATION SYSTEM</div>
+            </div>
+          </div>
+        
+    </div>
+
+    <div id="Contact"><a href="Contact"></a>
+      <div id="le"  class="left">
+    <h1 class="heading">Contact</h1>
+    <i class="fa fa-phone-square"></i>
+    <p>+91-9685944409</p>
+    <i class="fa fa-envelope"></i>
+    <p><a href="https://www.gmail.com">shikha.raghuwanshi99@gmail.com</a></p>
+    <p><a href="https://www.gmail.com">shikha.raghuwanshi@studetns.iiit.ac.in</a></p>
+    </div>
+    <div class="right">
+      <h1 class="heading">Send a message:</h1>
+      <div class="box">
+        <form action="#" id="form">
+          <label for="username">Name:</label><br>
+          <input type="text" name="username"><br>
+          <label for="email">Email:</label><br>
+          <input type="text" name="email"><br>
+          <label for="Message">Message:</label><br>
+          <textarea name="Message"  rows="10" cols="30"></textarea><br>
+          <input type="submit" name="submit" id="s">
+          <input type="reset" name="reset" id="r">
+        </form>
+      </div>
+
+    </div>
+   </div>
+
+   <script src="./app.js"></script>
+</body>
+</html>
